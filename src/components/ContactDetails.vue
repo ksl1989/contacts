@@ -37,7 +37,7 @@
 
 		<template v-else>
 			<!-- contact header -->
-			<header :style="{ 'backgroundColor': colorAvatar }">
+			<header>
 				<!-- avatar and upload photo -->
 				<ContactAvatar :contact="contact" />
 				<!-- QUESTION: is it better to pass contact as a prop or get it from the store inside
