@@ -71,6 +71,7 @@
 				:readonly="isReadOnly"
 				:class="{'property__value--with-ext': haveExtHandler}"
 				class="property__value"
+				:placeholder="type"
 				@input="updateValue">
 
 			<!-- external link -->
